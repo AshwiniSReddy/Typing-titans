@@ -320,7 +320,7 @@ export function TypingTestScreen({ username, onTestComplete }: TypingTestScreenP
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number | null>(null);
 
-  const sampleText = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump! Sphinx of black quartz, judge my vow. Two driven jocks help fax my big quiz.";
+  const sampleText = "Every keystroke pushes you closer to your goal. Fingers dance across the keys, creating words, and words become sentences. Speed and accuracy are essential as your rhythm builds. The challenge? A race to type faster and more precisely, whether aiming for 50 WPM or the world record of 216 WPM.";
   const words = useMemo(() => sampleText.split(' '), [sampleText]);
 
   const getHighlightedText = useCallback(() => {
