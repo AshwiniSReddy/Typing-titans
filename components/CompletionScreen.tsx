@@ -11,6 +11,7 @@ interface CompletionScreenProps {
   onShare: () => void
 }
 
+
 export function CompletionScreen({
   wordsPerMin,
   accuracy,
@@ -54,7 +55,7 @@ export function CompletionScreen({
             Your typing speed is{' '}
             <span className="text-teal-600 font-bold">{wordsPerMin} wpm</span>
           </motion.div>
-
+    
           <motion.div 
             className="text-2xl text-gray-700"
             initial={{ x: 20 }}

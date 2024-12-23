@@ -1,3 +1,6 @@
+
+
+
 'use client'
 
 import { useState, useCallback, useEffect } from 'react'
@@ -61,7 +64,6 @@ export default function TypingTest() {
   }, [])
 
   const handleShare = useCallback(() => {
-    // Implement sharing functionality
     alert(`Score shared: ${finalWPM} WPM with ${finalAccuracy}% accuracy`)
   }, [finalWPM, finalAccuracy])
 
